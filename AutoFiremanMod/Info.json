@@ -1,0 +1,10 @@
+﻿{
+  "Id": "AutoFiremanMod",
+  "DisplayName": "Auto Fireman Mod",
+  "Author": "Steve macAwesome",
+  "Version": "1.0.0",
+  "ManagerVersion": "1.0.0",
+  "GameVersion": "1.0.0",
+  "AssemblyName": "AutoFiremanMod.dll",
+  "EntryMethod": "AutoFiremanMod.Main.Load"
+}
