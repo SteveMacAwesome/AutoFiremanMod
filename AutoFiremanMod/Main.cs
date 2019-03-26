@@ -52,10 +52,9 @@ namespace AutoFiremanMod
             // Make sure the boiler has water in it
             if (Math.Abs(waterLevel - waterTarget) > waterDiff)
             {
-                SimComponent injector = __instance.injector;
                 float newValue = (waterLevel < waterTarget) ? 1.0f : 0.0f;
                 
-                injector.SetValue(newValue);
+                __instance.injector.SetValue(newValue);
             }
         }
     }
